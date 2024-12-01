@@ -1,6 +1,6 @@
 ---
 - name: Update Linux hosts
-  hosts: ha1, rstack
+  hosts: servers
   become: true
   tasks:
     - name: Update apt package index
